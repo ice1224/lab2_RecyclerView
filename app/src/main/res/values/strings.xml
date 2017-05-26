@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Filmovie</string>
+    <string name="action_settings">Settings</string>
+    <string name="default_title">Title</string>
+    <string name="default_decription">is absolutely amazing movie. With many great actors and really interesting plot. Must see!</string>
+    <string name="default_image_decription">Image</string>
+    <string name="default_actor_name">Mr Actor</string>
+    <string name="button_cast_to_info">Back</string>
+    <string name="button_info_to_cast">Gallery/Cast</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

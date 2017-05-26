@@ -1,0 +1,88 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="info.lab2kobiela.movieRecyclerView.CastFragment">
+
+    <ImageView
+        android:id="@+id/ivActor1"
+        android:layout_height="70dp"
+        android:layout_width="70dp"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/ivActor2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/dflt"
+        android:contentDescription="@string/default_image_decription" />
+
+    <ImageView
+        android:id="@+id/ivActor2"
+        android:layout_height="70dp"
+        android:layout_width="70dp"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/ivActor3"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivActor1"
+        android:src="@drawable/dflt"
+        android:contentDescription="@string/default_image_decription"/>
+
+    <ImageView
+        android:id="@+id/ivActor3"
+        android:layout_height="70dp"
+        android:layout_width="70dp"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivActor2"
+        android:src="@drawable/dflt"
+        android:contentDescription="@string/default_image_decription"/>
+
+
+    <TextView
+        android:id="@+id/tvActor1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ivActor1"
+        app:layout_constraintLeft_toRightOf="@+id/ivActor1"
+        app:layout_constraintTop_toTopOf="@+id/ivActor1"
+        android:textSize="20sp"
+        android:text="@string/default_actor_name" />
+
+    <TextView
+        android:id="@+id/tvActor2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ivActor2"
+        app:layout_constraintLeft_toRightOf="@+id/ivActor2"
+        app:layout_constraintTop_toTopOf="@+id/ivActor2"
+        android:textSize="20sp"
+        android:text="@string/default_actor_name" />
+
+    <TextView
+        android:id="@+id/tvActor3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ivActor3"
+        app:layout_constraintLeft_toRightOf="@+id/ivActor3"
+        app:layout_constraintTop_toTopOf="@+id/ivActor3"
+        android:textSize="20sp"
+        android:text="@string/default_actor_name" />
+
+    <Button
+        android:id="@+id/bCastToInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_cast_to_info"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp"
+        />
+
+
+</android.support.constraint.ConstraintLayout>
